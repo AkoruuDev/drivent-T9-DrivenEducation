@@ -23,4 +23,8 @@ module.exports = {
     },
     'import/resolver': { typescript: {}, node: {} },
   },
+  ignorePatterns: [
+    "dist/*",
+    "*.js",
+  ],
 };
